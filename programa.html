@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+  var anho=2022;
+  
+  function saltarLinea(){
+    document.write("<br>");
+  }
+
+  function imprimir(frase){
+
+    document.write(frase);
+
+  }
+  
+  imprimir("la edad de Ignacio es...<br>");
+  imprimir(35);
+  saltarLinea();
+  // codigo para sumar las edades
+  imprimir("la suma de las edades de Juan, Pedro y Carlos es...");
+  saltarLinea();
+  imprimir((20+25+15));
+	saltarLinea();
+	saltarLinea(); 
+  //codigo para calcular las edades segun el año
+	imprimir("Juan nació en el año...");
+	saltarLinea();
+	imprimir(anho - 20);
+  imprimir(" y tiene "+(anho-2002)+ " años");
+	saltarLinea();
+  saltarLinea();
+	imprimir("Pedro nació en el año...");
+	saltarLinea();
+	imprimir(anho - 25);
+  imprimir(" y tiene "+(anho-1997)+ " años");
+	saltarLinea();
+	saltarLinea();
+	imprimir("Carlos nació en el año...");
+	saltarLinea();
+	imprimir(anho - 15); 
+  imprimir(" y tiene "+(anho-2007)+ " años");
+  var edadJuan =20;
+  var edadPedro = 25;
+  var edadCarlos = 15;
+  var name1="Juan";
+  var name2="Pedro";
+  var name3="Carlos";
+  //calcular promedio de edades
+  var promedio = ((edadJuan+edadCarlos+edadPedro)/3);
+  saltarLinea();
+  saltarLinea();
+  imprimir("El promedio de edad de "+name1+", "+name2+" y "+name3+ " es: "+promedio);
+
+</script>

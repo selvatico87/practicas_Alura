@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA - Loteria </h1>
+
+<script>
+
+  function saltarLinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    
+  }
+  function imprimir(frase) {
+    document.write(frase);
+    saltarLinea();
+  }
+  
+  var cantNumerosSorteados= prompt("Cuantos números serán sorteados");
+  function loteria(n){
+    return Math.round(Math.random()*n);
+  }
+  var numeroGanador = loteria(cantNumerosSorteados);
+  var numeroJugado = parseInt(prompt("Ingrese un nuemro entre 0 y 10"));
+
+  if(numeroGanador==numeroJugado){
+    imprimir("Usted acertó")
+  }
+  if(numeroGanador>numeroJugado){
+    imprimir("Usted no acerto, el número ganador era mayor");
+  }
+  if(numeroGanador<numeroJugado){
+    imprimir("Usted no acerto, el número ganador era menor");
+  }
+  
+
+</script>

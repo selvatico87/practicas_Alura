@@ -12,4 +12,17 @@
   pincel.fillStyle="red"; 
   pincel.fillRect(400,0,200,400);
 
+  pincel.fillStyle="yellow"; 
+  pincel.beginPath();// aca le indico donde iniciar y la ruta
+  pincel.moveTo(300,200); // le indico al puntero donde debe iniciar osea el primer punto
+  pincel.lineTo(200,400); // aca le indico el segundo punto
+  pincel.lineTo(400,400); // tercer punto , lleva tres porque es un triangulo
+  pincel.fill(); // le indico que rellene
+
+  pincel.fillStyle="blue";
+  pincel.beginPath();
+  pincel.arc(300,200,50,0,2*3.14);// le indico la coordenadas, el tercero el tamaño en radio, el angulo inicial y el angulo final que es 2 por pi
+  pincel.fill();
+
+  // puedo investigar mas de esta biblioteca buscando documentacion canvas en mozilla
 </script>

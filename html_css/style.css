@@ -1,9 +1,8 @@
 body{
-  background: #ccc;
+  background: #fff;
 }
 h1{
   text-align: center; 
-  background: #ccc;
 }
 p{
   text-align: center;
@@ -16,4 +15,28 @@ em strong{/* puedo combinar etiquetas nombrando al padre y al hijo  */
 }
 banner{
   width: 100%;
+}
+.principal{
+  width: 100%;
+  background: #ccc;
+  padding: 20px;
+}
+.diferenciales{
+  background: #fff;
+  padding: 30px;
+}
+h2{
+  text-align: center;
+}
+.items{
+  font-style: italic;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagen_diferenciales{
+  width: 50%;
 }

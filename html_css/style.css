@@ -1,9 +1,19 @@
 body{
   background: #ccc;
 }
+h1{
+  text-align: center; 
+  background: #ccc;
+}
 p{
   text-align: center;
 }
 em strong{/* puedo combinar etiquetas nombrando al padre y al hijo  */
   color: red;
+}
+#mision{
+  font-size: 20px;
+}
+banner{
+  width: 100%;
 }
